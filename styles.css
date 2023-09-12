@@ -1,0 +1,42 @@
+body {
+    background-color: #17AAAD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: brown;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 8px solid brown;
+    border-radius: 2%;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    background-color: orange;
+    flex-direction: row;
+}
+
+.square {
+    background-color: white;
+    flex: 1;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.draw {
+    background-color: darkgoldenrod;
+}
+
